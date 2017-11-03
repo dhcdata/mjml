@@ -1,7 +1,7 @@
 {
   "name": "dhc-mjml-wrapper",
-  "description": "mjml-wrapper",
-  "version": "4.0.0-alpha.3.5",
+  "description": "dhc-mjml-wrapper",
+  "version": "4.0.0-alpha.3.6",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
     "build": "../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "lodash": "^4.17.2",
-    "mjml-core": "^4.0.0-alpha.3.5",
-    "mjml-section": "^4.0.0-alpha.3.5"
+    "dhc-mjml-core": "^4.0.0-alpha.3.6",
+    "dhc-mjml-section": "^4.0.0-alpha.3.6",
+    "lodash": "^4.17.2"
   }
 }
