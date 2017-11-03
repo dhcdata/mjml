@@ -2,7 +2,7 @@ import yargs from 'yargs'
 
 import { flow, pick, isNil, negate, pickBy } from 'lodash/fp'
 import { isArray, isEmpty } from 'lodash'
-import mjml2html from 'mjml-core'
+import mjml2html from 'dhc-mjml-core'
 
 import readFile, { flatMapPaths } from './commands/readFile'
 import watchFiles from './commands/watchFiles'
@@ -10,7 +10,7 @@ import readStream from './commands/readStream'
 import outputToFile, { isDirectory } from './commands/outputToFile'
 import outputToConsole from './commands/outputToConsole'
 
-import { version as coreVersion } from 'mjml-core/package.json' // eslint-disable-line import/first
+import { version as coreVersion } from 'dhc-mjml-core/package.json' // eslint-disable-line import/first
 import { version as cliVersion } from '../package.json'
 
 const DEFAULT_OPTIONS = {

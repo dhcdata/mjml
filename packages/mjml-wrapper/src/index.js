@@ -1,4 +1,4 @@
-import MjSection from 'mjml-section'
+import MjSection from 'dhc-mjml-section'
 
 export default class MjWrapper extends MjSection {
   renderWrappedChildren() {

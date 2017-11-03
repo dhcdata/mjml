@@ -978,21 +978,21 @@ minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
-mjml-body@^4.0.0-alpha.3:
+mjml-body@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-body/-/mjml-body-4.0.0-alpha.3.tgz#456b519ec906f65da82820c543a68da4b9243911"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-button@^4.0.0-alpha.3:
+mjml-button@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-button/-/mjml-button-4.0.0-alpha.3.tgz#1df08759ea098308762a69f171a446b1a10a27d4"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-cli@^4.0.0-alpha.3:
+mjml-cli@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-cli/-/mjml-cli-4.0.0-alpha.3.tgz#b4d662684b83a5a72f470b2cd6763d7f9a708303"
   dependencies:
@@ -1001,18 +1001,18 @@ mjml-cli@^4.0.0-alpha.3:
     fs-promise "^2.0.3"
     glob "^7.1.1"
     lodash "^4.17.4"
-    mjml-core "^4.0.0-alpha.3"
-    mjml-parser-xml "^4.0.0-alpha.3"
-    mjml-validator "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
+    mjml-parser-xml "^4.0.0-alpha.3.5"
+    mjml-validator "^4.0.0-alpha.3.5"
 
-mjml-column@^4.0.0-alpha.3:
+mjml-column@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-column/-/mjml-column-4.0.0-alpha.3.tgz#8c3ec87dcfc8a1151551d1aaf15edf23db58a4d4"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-core@^4.0.0-alpha.3:
+mjml-core@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-core/-/mjml-core-4.0.0-alpha.3.tgz#b0a700d0c0fd5349360fda49835f951e72fa4734"
   dependencies:
@@ -1020,143 +1020,143 @@ mjml-core@^4.0.0-alpha.3:
     js-beautify "^1.6.14"
     juice "^4.1.0"
     lodash "^4.17.3"
-    mjml-parser-xml "^4.0.0-alpha.3"
-    mjml-validator "^4.0.0-alpha.3"
+    mjml-parser-xml "^4.0.0-alpha.3.5"
+    mjml-validator "^4.0.0-alpha.3.5"
     object-path "^0.11.3"
 
-mjml-divider@^4.0.0-alpha.3:
+mjml-divider@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-divider/-/mjml-divider-4.0.0-alpha.3.tgz#0ccde47e6c08b96faf5396a107b81cb3d8eb996d"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-group@^4.0.0-alpha.3:
+mjml-group@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-group/-/mjml-group-4.0.0-alpha.3.tgz#0f3d550de018700a823a1c077954f76a0643dc37"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-attributes@^4.0.0-alpha.3:
+mjml-head-attributes@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-attributes/-/mjml-head-attributes-4.0.0-alpha.3.tgz#014e03f763251209745ed31129bdcfc766817b0a"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-breakpoint@^4.0.0-alpha.3:
+mjml-head-breakpoint@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-breakpoint/-/mjml-head-breakpoint-4.0.0-alpha.3.tgz#f95596caeb492494e9949e686182e0cf373d127b"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-font@^4.0.0-alpha.3:
+mjml-head-font@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-font/-/mjml-head-font-4.0.0-alpha.3.tgz#36572ccf97816176e9702b2cdf14662985c89ae1"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-preview@^4.0.0-alpha.3:
+mjml-head-preview@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-preview/-/mjml-head-preview-4.0.0-alpha.3.tgz#45ecb8979050344276e72232117aa1aaf20734d9"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-style@^4.0.0-alpha.3:
+mjml-head-style@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-style/-/mjml-head-style-4.0.0-alpha.3.tgz#3e8b6b6c76f442ef021887c3c1e3cf21c8b45c7e"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head-title@^4.0.0-alpha.3:
+mjml-head-title@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head-title/-/mjml-head-title-4.0.0-alpha.3.tgz#c9cfaa81a7b7255ebd58ce87d594309080bd3713"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-head@^4.0.0-alpha.3:
+mjml-head@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-head/-/mjml-head-4.0.0-alpha.3.tgz#5223c3318fcfc495c84183d4e9b4b75f58f32b59"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-image@^4.0.0-alpha.3:
+mjml-image@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-image/-/mjml-image-4.0.0-alpha.3.tgz#267507553f5a393fcb2d0129314f8662b251bcfa"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-parser-xml@^4.0.0-alpha.3:
+mjml-parser-xml@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-parser-xml/-/mjml-parser-xml-4.0.0-alpha.3.tgz#fc026bc42edfde942ec0eee9087f2d0363a544a7"
   dependencies:
     htmlparser2 "^3.9.2"
     lodash "^4.17.2"
 
-mjml-raw@^4.0.0-alpha.3:
+mjml-raw@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-raw/-/mjml-raw-4.0.0-alpha.3.tgz#6bd2fbf31dfc93397fa1b62b64732a99f81f0989"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-section@^4.0.0-alpha.3:
+mjml-section@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-section/-/mjml-section-4.0.0-alpha.3.tgz#c788872ab95f90d955bda596e5f00c7ac8818a64"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-social@^4.0.0-alpha.3:
+mjml-social@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-social/-/mjml-social-4.0.0-alpha.3.tgz#ea2a56e3ab1e4dfbc56d386f1ef7da29200606b2"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-spacer@^4.0.0-alpha.3:
+mjml-spacer@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-spacer/-/mjml-spacer-4.0.0-alpha.3.tgz#57542f7c77972d7c16e4fd00bfaa3f96d9aa4890"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-table@^4.0.0-alpha.3:
+mjml-table@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-table/-/mjml-table-4.0.0-alpha.3.tgz#a4fba8b787903fb46098164b73df8d574ddba6d7"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-text@^4.0.0-alpha.3:
+mjml-text@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-text/-/mjml-text-4.0.0-alpha.3.tgz#465e04f266f81d7d64f615d603ba28c2cfb79440"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
 
-mjml-validator@^4.0.0-alpha.3:
+mjml-validator@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-validator/-/mjml-validator-4.0.0-alpha.3.tgz#607c493bbc645bb4f757fa9cc0f47dd74745fcf2"
   dependencies:
     lodash "^4.17.4"
     warning "^3.0.0"
 
-mjml-wrapper@^4.0.0-alpha.3:
+mjml-wrapper@^4.0.0-alpha.3.5:
   version "4.0.0-alpha.3"
   resolved "https://registry.yarnpkg.com/mjml-wrapper/-/mjml-wrapper-4.0.0-alpha.3.tgz#16b07294d3b5834415a05735fdaf64b3087be1d9"
   dependencies:
     lodash "^4.17.2"
-    mjml-core "^4.0.0-alpha.3"
-    mjml-section "^4.0.0-alpha.3"
+    mjml-core "^4.0.0-alpha.3.5"
+    mjml-section "^4.0.0-alpha.3.5"
 
 "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0:
   version "0.5.1"

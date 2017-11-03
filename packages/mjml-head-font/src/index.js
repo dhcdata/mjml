@@ -1,4 +1,4 @@
-import { HeadComponent } from 'mjml-core'
+import { HeadComponent } from 'dhc-mjml-core'
 
 export default class MjFont extends HeadComponent {
   static tagOmission = true

@@ -1,7 +1,7 @@
 import forEach from 'lodash/forEach'
 import omit from 'lodash/omit'
 
-import { HeadComponent } from 'mjml-core'
+import { HeadComponent } from 'dhc-mjml-core'
 
 export default class MjAttributes extends HeadComponent {
   handler() {

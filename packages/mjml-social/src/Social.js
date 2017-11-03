@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'dhc-mjml-core'
 
 export default class MjSocial extends BodyComponent {
   // static allowedAttributes = {

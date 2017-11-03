@@ -4,8 +4,8 @@ import juice from 'juice'
 import { html as htmlBeautify } from 'js-beautify'
 import { minify as htmlMinify } from 'html-minifier'
 
-import MJMLParser from 'mjml-parser-xml'
-import MJMLValidator from 'mjml-validator'
+import MJMLParser from 'dhc-mjml-parser-xml'
+import MJMLValidator from 'dhc-mjml-validator'
 
 import components, { initComponent, registerComponent } from './components'
 

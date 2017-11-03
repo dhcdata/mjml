@@ -91,7 +91,7 @@ You can now add a `postRender` hook that take the HTML generated from MJML docum
 `tagName`, `baseStyle`, `columnElement`, `endingTag`, `defaultMJMLDefinition` are now statics, use them as such:
 
 ```javascript
-import { MJMLElement, helpers } from 'mjml-core'
+import { MJMLElement, helpers } from 'dhc-mjml-core'
 import merge from 'lodash/merge'
 import React, { Component } from 'react'
 

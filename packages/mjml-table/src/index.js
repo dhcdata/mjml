@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'dhc-mjml-core'
 
 export default class MjTable extends BodyComponent {
   static endingTag = true

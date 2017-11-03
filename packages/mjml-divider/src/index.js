@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'dhc-mjml-core'
 
-import widthParser from 'mjml-core/lib/helpers/widthParser'
+import widthParser from 'dhc-mjml-core/lib/helpers/widthParser'
 
 export default class MjDivider extends BodyComponent {
   static tagOmission = true

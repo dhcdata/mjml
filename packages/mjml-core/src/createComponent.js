@@ -1,6 +1,6 @@
 import { get, forEach, identity, reduce, kebabCase } from 'lodash'
 
-import MJMLParser from 'mjml-parser-xml'
+import MJMLParser from 'dhc-mjml-parser-xml'
 
 import shorthandParser from './helpers/shorthandParser'
 

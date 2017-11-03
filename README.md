@@ -104,7 +104,7 @@ $> mjml -w input.mjml -o output.html
 ### Inside Node.js
 
 ```javascript
-import { mjml2html } from 'mjml'
+import { mjml2html } from 'dhc-mjml'
 
 /*
   Compile an mjml string

@@ -1,5 +1,5 @@
 {
-  "name": "mjml-master",
+  "name": "dhc-mjml-master",
   "private": true,
   "scripts": {
     "build:watch": "lerna run build --parallel -- -- -w",

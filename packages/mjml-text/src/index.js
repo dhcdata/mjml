@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'dhc-mjml-core'
 
-import conditionalTag from 'mjml-core/lib/helpers/conditionalTag'
+import conditionalTag from 'dhc-mjml-core/lib/helpers/conditionalTag'
 
 export default class MjText extends BodyComponent {
   static endingTag = true
