@@ -1,7 +1,7 @@
 {
   "name": "dhc-mjml-validator",
   "description": "dhc-mjml-validator",
-  "version": "4.0.0-alpha.3.8",
+  "version": "4.0.0-alpha.3.9",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
