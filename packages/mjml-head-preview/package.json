@@ -1,7 +1,7 @@
 {
   "name": "dhc-mjml-head-preview",
   "description": "dhc-mjml-head-preview",
-  "version": "4.0.0-alpha.3.9",
+  "version": "4.0.0-alpha.3.10",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "build": "../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "dhc-mjml-core": "^4.0.0-alpha.3.9",
+    "dhc-mjml-core": "^4.0.0-alpha.3.10",
     "lodash": "^4.17.2"
   }
 }
