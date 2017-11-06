@@ -1,7 +1,7 @@
 {
   "name": "dhc-mjml-cli",
   "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "4.0.0-alpha.3.11",
+  "version": "4.0.0-alpha.3.12",
   "main": "bin/mjml",
   "bin": {
     "dhc-mjml-cli": "bin/mjml"
@@ -21,9 +21,9 @@
   },
   "dependencies": {
     "chokidar": "^1.6.1",
-    "dhc-mjml-core": "^4.0.0-alpha.3.11",
-    "dhc-mjml-parser-xml": "^4.0.0-alpha.3.11",
-    "dhc-mjml-validator": "^4.0.0-alpha.3.11",
+    "dhc-mjml-core": "^4.0.0-alpha.3.12",
+    "dhc-mjml-parser-xml": "^4.0.0-alpha.3.12",
+    "dhc-mjml-validator": "^4.0.0-alpha.3.12",
     "glob": "^7.1.1",
     "lodash": "^4.17.4",
     "yargs": "^8.0.2"
