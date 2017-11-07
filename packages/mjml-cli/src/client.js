@@ -10,9 +10,7 @@ import readStream from './commands/readStream'
 import outputToFile, { isDirectory } from './commands/outputToFile'
 import outputToConsole from './commands/outputToConsole'
 
-import { version as coreVersion } from 'mjml-core/package.json' // eslint-disable-line import/first
-import { version as cliVersion } from '../package.json'
-import { DEFAULT_OPTIONS } from './helpers/defaultOptions'
+import { DEFAULT_OPTIONS, CLI_OPTIONS, CLI_VERSION } from './helpers/defaults'
 
 let EXIT_CODE = 0
 let KEEP_OPEN = false
@@ -27,41 +25,9 @@ const pickArgs = args =>
   flow(pick(args), pickBy(e => negate(isNil)(e) && !(isArray(e) && isEmpty(e))))
 
 const argv = yargs
-  .options({
-    r: {
-      alias: 'read',
-      describe: 'Compile MJML File(s)',
-      type: 'array',
-    },
-    w: {
-      alias: 'watch',
-      type: 'array',
-      describe: 'Watch and compile MJML File(s) when modified',
-    },
-    i: {
-      alias: 'stdin',
-      describe: 'Compiles MJML from input stream',
-    },
-    s: {
-      alias: 'stdout',
-      describe: 'Output HTML to stdout',
-    },
-    o: {
-      alias: 'output',
-      type: 'string',
-      describe: 'Filename/Directory to output compiled files',
-    },
-    c: {
-      alias: 'config',
-      type: 'object',
-      describe: 'Option to pass to mjml-core',
-    },
-    version: {
-      alias: 'V',
-    },
-  })
+  .options(CLI_OPTIONS)
   .help()
-  .version(`mjml-core: ${coreVersion}\nmjml-cli: ${cliVersion}`).argv
+  .version(CLI_VERSION).argv
 
 const config = Object.assign(DEFAULT_OPTIONS, argv.c)
 const inputArgs = pickArgs(['r', 'w', 'i', '_'])(argv)
