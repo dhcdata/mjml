@@ -10,6 +10,8 @@ import readStream from './commands/readStream'
 import outputToFile, { isDirectory } from './commands/outputToFile'
 import outputToConsole from './commands/outputToConsole'
 
+import { version as coreVersion } from 'mjml-core/package.json' // eslint-disable-line import/first
+import { version as cliVersion } from '../package.json'
 import { DEFAULT_OPTIONS, CLI_OPTIONS, CLI_VERSION } from './helpers/defaults'
 
 export default async () => {
