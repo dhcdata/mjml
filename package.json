@@ -1,6 +1,7 @@
 {
   "name": "mjml-master",
   "private": true,
+  "version": "4.0.0.alpha.2",
   "scripts": {
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel",
